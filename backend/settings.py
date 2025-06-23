@@ -57,6 +57,11 @@ REST_FRAMEWORK = {
 
 CORS_ALLOW_ALL_ORIGINS = True
 
+CORS_ALLOWED_ORIGINS = [
+    "https://react-ecom-tmjm-git-main-vaibhav-shrivastavs-projects.vercel.app",
+]
+
+
 AUTH_USER_MODEL = 'loginregistration.Customer'
 
 MIDDLEWARE = [
