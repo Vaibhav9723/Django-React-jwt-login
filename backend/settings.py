@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-kt2vta6@11qdy01$f%f^m&4$w!=d=*5ufhgbjl57^5sp-__g%s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'django-react-jwt-login.onrender.com']
+
 import os
 
 
